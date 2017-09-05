@@ -20,15 +20,15 @@ The following examples illustrate how to interact with the ZCPR API using curl o
 
 ```
 curl http://localhost:4567/
-```
-should return:
-`Zip Code Population Retriever (ZCPR):
+
+Zip Code Population Retriever (ZCPR):
     1. Return states with populations above 10 Million
     ex: localhost:4567/state-populations-above-ten-million
     2. Return average city population by state
     ex: localhost:4567/average-city-population/NY
     3. Return largest and smallest cities by state
-    ex. localhost:4567/min-and-max-city-populations/NY`
+    ex. localhost:4567/min-and-max-city-populations/NY
+```
 
 ### 1. Return states with populations above 10 Million
 ```
