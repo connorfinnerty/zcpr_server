@@ -1,0 +1,43 @@
+AllCops:
+  Excludes:
+    - 'data/*'
+
+StringLiterals:
+  Enabled: false
+
+BlockLength:
+  Max: 200
+
+Layout/IndentationWidth:
+  Exclude:
+    - 'zipcode_parser_spec.rb'
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Layout/TrailingBlankLines:
+  Exclude:
+    - 'zipcode_parser_spec.rb'
+
+Lint/Void:
+  Exclude:
+    - 'zipcode_parser_spec.rb'
+
+Metrics/LineLength:
+  Max: 200
+
+Metrics/BlockLength:
+  Max: 34
+
+Metrics/MethodLength:
+  Max: 50
+
+Style/NumericLiterals:
+  Enabled: False
+
+Style/StringLiterals:
+  Exclude:
+    - 'zipcode_parser_spec.rb'
+
+Layout/SpaceAroundOperators:
+  Enabled: false
